@@ -185,7 +185,7 @@ const useProfessionals = () => {
             },
                         {
                 name: 'Martín Barrère',
-                image:'professionals/martin.jpg',
+                image:'professionals/martin.jpeg',
                 contac:{
                     linkedin:'https://www.linkedin.com/in/mart%C3%ADn-barr%C3%A8re-9618261/',
                     cv:'cvs/Martin_Barrere.pdf'
