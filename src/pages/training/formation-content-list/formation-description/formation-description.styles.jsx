@@ -161,7 +161,7 @@ export const SpanInfoCourse = styled.div `
 export const SpanInfoModalidad = styled.div`
     min-width: 350px;
     
-    ${({itemVisible}) => itemVisible ? '' :'height:250px'};
+    ${({itemVisible}) => itemVisible ? '' :'height:150px'};
     display: flex;
     flex-direction: column;
     margin: 10px auto;

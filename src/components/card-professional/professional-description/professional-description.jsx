@@ -9,6 +9,7 @@ const ProfessionalDescription = ({professions}) =>{
         [t("interpreter")]:'var(--parrotGreen)',
         [t("teacher")]: 'var(--green)',
         [t("leader")]: '#959500',
+        [t("traductor")]:'var(--blue)',
     }
       
 
