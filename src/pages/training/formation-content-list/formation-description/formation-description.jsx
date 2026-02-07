@@ -54,7 +54,6 @@ const FormationDescription = ({handleItemClick,formationItem}) => {
     handleItemClick(key);
   }
 
-  
 
   return (
         <FormationDescriptionContainer itemID='HeadTitleCourse'>
@@ -97,14 +96,14 @@ const FormationDescription = ({handleItemClick,formationItem}) => {
               
               <ExtraInfoContent>
                 
-                <SpanExtraInfo >
+                {formationItem.cursosArticulados.length ? <SpanExtraInfo >
                     <ExtraInfoTitle ref={ref} onClick={() => handleItemActive('articlulated')}>
                         <MdAccountTree size={iconSize} fill={iconColor} stroke={iconColor} /><h4>Cursos articulados </h4>     
                     </ExtraInfoTitle>
                     <ArticulatedCoursesList itemActive={itemsActiveArticulated}> 
                         {formationItem.resumen}: {formationItem.cursosArticulados.map((curso)=><li key={curso.key} onClick={()=>handleArticulatedItemsClick(curso.key) }> <h5>{curso.name}</h5></li>)}
                     </ArticulatedCoursesList>
-                </SpanExtraInfo>
+                </SpanExtraInfo>:''}
                 {/* <span><ExtraInfoTitle><MdAccountTree size={iconSize} fill={iconColor} stroke={iconColor} /><h4>Información pedagógica: </h4> </ExtraInfoTitle><p>{formationItem.infoPedagogica}</p>                                    </span> */}
                 <SpanExtraInfo >
                   <ExtraInfoTitle onClick={() => handleItemActive('teachers')}>

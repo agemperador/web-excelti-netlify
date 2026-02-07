@@ -63,7 +63,7 @@ export const TRANSLATIONS_PT = {
     coaching: 'Coaching',
     cursoInterpretacion: 'Curso de interpretação',
     coachingSecondTitle: '(Espanhol-Inglês-Português)',
-    cursoSecondTitle: '(Inglês - Espanhol)',
+    cursoSecondTitle: '(Inglês - Espanhol - Português)',
     trainingParagraph: "Todos os integrantes da Excelti estão comprometidos com a sua própria capacitação e com a dos seus colegas, que são orientados em função de seu perfil pessoal",
     cursoSubTitle: 'Metodologia de aprendizagem personalizada e com fins específicos',
 
@@ -86,6 +86,7 @@ export const TRANSLATIONS_PT = {
     modalidadElearning: 'E-learning',
 
     traductora: "Tradutora",
+    traductor:"Traductor",
     interpreter: "Intérprete",
     teacher: "Professora",
     leader: "Líder",

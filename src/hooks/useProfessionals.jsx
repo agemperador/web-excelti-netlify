@@ -7,7 +7,8 @@ const useProfessionals = () => {
         1:t("traductora"),
         2:t("interpreter"),
         3:t("teacher"),
-        4:t("leader")
+        4:t("leader"),
+        5:t("traductor")
     }
     
     const getAllProfessionals = () => {
@@ -169,6 +170,29 @@ const useProfessionals = () => {
                 },
                 profession:[
                     professions[1],
+                ]
+            },
+                        {
+                name: 'Samantha Sassi',
+                image:'',
+                contac:{
+                    linkedin:'',
+                    cv:''
+                },
+                profession:[
+                    professions[1],
+                ]
+            },
+                        {
+                name: 'Martín Barrère',
+                image:'professionals/martin.jpg',
+                contac:{
+                    linkedin:'https://www.linkedin.com/in/mart%C3%ADn-barr%C3%A8re-9618261/',
+                    cv:'cvs/Martin_Barrere.pdf'
+                },
+                profession:[
+                    professions[5],
+                    professions[2]
                 ]
             },
         ];

@@ -62,7 +62,7 @@ export const TRANSLATIONS_EN = {
     coaching: 'Coaching',
     cursoInterpretacion: 'Interpretation Course',
     coachingSecondTitle: '(English-Spanish-Portuguese)',
-    cursoSecondTitle: '(English-Spanish)',
+    cursoSecondTitle: '(English-Spanish-Portuguese)',
     trainingParagraph: "All the members of  ExcelTI are committed to life-long learning",
     cursoSubTitle: 'Customized methodology  with specific purposes',
 
@@ -86,6 +86,7 @@ export const TRANSLATIONS_EN = {
 
 
     traductora: "Translator",
+    traductor: "Translator",
     interpreter: "Interpreter",
     teacher: "Teacher",
     leader: "Leader",
