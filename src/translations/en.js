@@ -56,6 +56,8 @@ export const TRANSLATIONS_EN = {
     eventosHibridosContent: "Service provided face-to-face and with virtual resources.",
     actuacionPericial: "Court Interpretation",
     actuacionPericialContent: "Service provided by acredited sworn translators.",
+    coordinacionIntegralEventos:"Event management",
+    coordinacionIntegralEventosContent:"Event service coordination at domestic, regional and international meetings",
 
     //Página capacitación
     modalidad: 'Modalities',

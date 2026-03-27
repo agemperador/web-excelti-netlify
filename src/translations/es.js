@@ -55,6 +55,8 @@ export const TRANSLATIONS_ES = {
     eventosHibridosContent: "Modalidad en la que se combina la interpretación presencial con la virtual. ",
     actuacionPericial: "Actuación pericial",
     actuacionPericialContent: "Servicios de traductores públicos como peritos intérpretes.",
+    coordinacionIntegralEventos:"Coordinación integral de eventos",
+    coordinacionIntegralEventosContent: "Gestión de servicios para reuniones locales, regionales e internacionales",
 
     //Página capacitación
     modalidad: 'Modalidades',

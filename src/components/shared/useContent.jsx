@@ -6,7 +6,7 @@ const UseContent = () => {
                 'key': 1,
                 'name': t("asesoramientoEnTraduccion"),
                 'content': t("asesoramientoEnTraduccionContent"),
-                'url': '/interpretation/interprete_consultora21a.jpg',
+                'url': '/interpretation/Interprete_consultora21a.jpg',
                 'alt': 'asesoramiento'
             },
             {
@@ -58,6 +58,13 @@ const UseContent = () => {
                 'content': t('actuacionPericialContent'),
                 'url': '/interpretation/business_improv_2009_4.jpg',
                 'alt': 'peritos'
+            },
+            {
+                'key': 8,
+                'name': t("coordinacionIntegralEventos"),
+                'content': t('coordinacionIntegralEventosContent'),
+                'url': '/interpretation/event_management.jpeg',
+                'alt': 'coordinacion_integral'
             }
         ]
 

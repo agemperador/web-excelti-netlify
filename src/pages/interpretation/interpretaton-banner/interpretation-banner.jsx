@@ -74,6 +74,8 @@ const InterpretationBannerContainer = styled.div`
             
         }
         object-fit: cover;
+        object-position: left top;
+
     }
     h2{
         text-decoration: ${props => props.underline == 1 && `underline var(--parrotGreen)`};
